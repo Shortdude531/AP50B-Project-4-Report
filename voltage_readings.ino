@@ -1,11 +1,4 @@
-/*  Soil Moisture Basic Example
-    This sketch was written by SparkFun Electronics
-    Joel Bartlett 
-    August 31, 2015
-
-    Basic skecth to print out soil moisture values to the Serial Monitor 
-
-    Released under the MIT License(http://opensource.org/licenses/MIT)
+/*code adappted from Playground, crickit, sparks fun examples
 */
 #include <Adafruit_CircuitPlayground.h>
 #include "Adafruit_Crickit.h"
