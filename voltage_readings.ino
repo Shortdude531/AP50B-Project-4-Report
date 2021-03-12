@@ -39,9 +39,8 @@ int readSoil()
 {
 
     digitalWrite(soilPower, HIGH);//turn D7 "On"
-
     sensorValue = analogRead(soilPin);//Read the SIG value form sensor 
     delay(100);
     digitalWrite(soilPower, LOW);//turn D7 "Off"
     return sensorValue;//send current moisture value
-    }
+}
