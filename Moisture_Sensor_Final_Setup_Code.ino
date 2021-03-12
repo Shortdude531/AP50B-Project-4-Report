@@ -99,7 +99,7 @@ void loop()
         motor_a.throttle(0);
       }   
     }
-//This is a function used to get the soil moisture content from sparks fun code
+//This is a function used to get the soil moisture content from sparkfun code
 int readSoil()
 {
 
