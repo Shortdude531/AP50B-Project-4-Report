@@ -7,15 +7,13 @@
 #include <Adafruit_CircuitPlayground.h>
 
 Adafruit_Crickit crickit;
+//define G I/O port used to power Blue LEDs
 #define PWM CRICKIT_SIGNAL3
 int sensorValue = 0; //value for storing moisture value 
 int voltage = 0;
 int soilPin = A2;//Declare a variable for the soil moisture sensor 
 int soilPower = A3;//Variable for Soil moisture Power
 
-//Rather than powering the sensor through the 3.3V or 5V pins, 
-//we'll use a digital pin to power the sensor. This will 
-//prevent corrosion of the sensor as it sits in the soil. 
 
 void setup() 
 {
